@@ -252,6 +252,27 @@ footer p {
     line-height: 1.6;
 }
 
+/* Galeria */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.galeria:hover {
+    transform: scale(1.03);
+}
+
 /* Responsive Tablet */
 
 @media (max-width: 900px) {
@@ -274,6 +295,10 @@ footer p {
     }
 
     .experiencias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -331,11 +356,19 @@ footer p {
         height: 200px;
     }
 
-    footer {
-        padding: 40px 15px;
+        .experiencias {
+        grid-template-columns: 1fr;
     }
 
-    .experiencias {
+    .galeria {
         grid-template-columns: 1fr;
+    }
+
+    .galeria img {
+        height: 220px;
+    }
+
+    footer {
+        padding: 40px 15px;
     }
 }
