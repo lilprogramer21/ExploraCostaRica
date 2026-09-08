@@ -283,7 +283,7 @@ footer p {
 .razones h2 {
     text-align: center;
     font-size: 36px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contenedor-razones {
@@ -399,8 +399,8 @@ footer p {
         height: 200px;
     }
 
-        .experiencias {
-        grid-template-columns: 1fr;
+    .experiencias {
+    grid-template-columns: 1fr;
     }
 
     .galeria {
