@@ -249,22 +249,6 @@ form button:hover {
     background-color: #fb8500;
 }
 
-/* footer */
-
-footer {
-    background-color: #023047;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-footer h2 {
-    margin-bottom: 15px;
-}
-
-footer p {
-    margin: 8px;
-}
 
 /* Experiencias */
 
@@ -360,6 +344,24 @@ footer p {
     line-height: 1.6;
     color: #555;
 }
+
+/* footer */
+
+footer {
+    background-color: #023047;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 8px;
+}
+
 
 /* Responsive Tablet */
 
