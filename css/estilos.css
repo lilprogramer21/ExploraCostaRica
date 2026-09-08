@@ -269,7 +269,7 @@ footer p {
     transition: 0.3s;
 }
 
-.galeria:hover {
+.galeria img:hover {
     transform: scale(1.03);
 }
 
