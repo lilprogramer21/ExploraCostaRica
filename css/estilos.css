@@ -273,6 +273,45 @@ footer p {
     transform: scale(1.03);
 }
 
+/* Razones */
+
+.razones {
+    background-color: #e9f5ec;
+    padding: 80px 8%;
+}
+
+.razones h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.contenedor-razones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.razon {
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.razon span {
+    font-size: 45px;
+}
+
+.razon h3 {
+    margin: 15px 0;
+}
+
+.razon p {
+    line-height: 1.6;
+    color: #555;
+}
+
 /* Responsive Tablet */
 
 @media (max-width: 900px) {
@@ -299,6 +338,10 @@ footer p {
     }
 
     .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor-razones {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -366,6 +409,10 @@ footer p {
 
     .galeria img {
         height: 220px;
+    }
+
+    .contenedor-razones {
+        grid-template-columns: repeat(1fr);
     }
 
     footer {
