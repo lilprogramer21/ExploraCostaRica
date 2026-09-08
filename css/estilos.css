@@ -217,6 +217,41 @@ footer p {
     margin: 8px;
 }
 
+/* Experiencias */
+
+.experiencias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.experiencia {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+.experiencia:hover {
+    transform: translateY(-8px);
+}
+
+.experiencia span {
+    font-size: 45px;
+}
+
+.experiencia h3 {
+    margin: 15px 0 10px 0;
+}
+
+.experiencia p {
+    color: #555;
+    line-height: 1.6;
+}
+
 /* Responsive Tablet */
 
 @media (max-width: 900px) {
@@ -236,6 +271,10 @@ footer p {
 
     .gastronomia {
         grid-template-columns: 1fr;
+    }
+
+    .experiencias {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -294,5 +333,9 @@ footer p {
 
     footer {
         padding: 40px 15px;
+    }
+
+    .experiencias {
+        grid-template-columns: 1fr;
     }
 }
