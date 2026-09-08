@@ -200,6 +200,55 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
+/* Contacto */
+
+.contacto {
+    max-width: 800px;
+    margin: auto;
+}
+
+form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+    display: flex; 
+    flex-direction: column;
+    gap: 12px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffb703;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #fb8500;
+}
+
 /* footer */
 
 footer {
