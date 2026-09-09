@@ -380,6 +380,26 @@ form button:hover {
     color: #555;
 }
 
+/* Estadistica */
+
+.estadisticas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #023047;
+    color: white;
+    text-align: center;
+    padding: 60pc 8%;
+    gap: 20px;
+}
+
+.estadistica h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.estadistica p {
+    font-size: 18px;
+}
 /* footer */
 
 footer {
@@ -432,6 +452,10 @@ footer p {
     }
 
     .parques {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .estadisticas {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -506,6 +530,10 @@ footer p {
     }
 
     .parques {
+        grid-template-columns: 1fr;
+    }
+
+    .estadisticas {
         grid-template-columns: 1fr;
     }
 
